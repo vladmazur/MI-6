@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C2045A43180AB8D000EA0BF2 /* SubjectViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2045A42180AB8D000EA0BF2 /* SubjectViewCell.m */; };
 		C21AA4DC17F87FAD00BF98C0 /* Subject.m in Sources */ = {isa = PBXBuildFile; fileRef = C21AA4DB17F87FAD00BF98C0 /* Subject.m */; };
 		C21AA4DF17F8807A00BF98C0 /* SubjectBox.m in Sources */ = {isa = PBXBuildFile; fileRef = C21AA4DE17F8807A00BF98C0 /* SubjectBox.m */; };
 		C21AA4E217F882C500BF98C0 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C21AA4E117F882C500BF98C0 /* CollectionViewController.m */; };
-		C21AA4E517F88AB000BF98C0 /* SubjectViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C21AA4E417F88AB000BF98C0 /* SubjectViewCell.m */; };
 		C21AA4E917F8950000BF98C0 /* texture-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C21AA4E717F8950000BF98C0 /* texture-2.jpg */; };
 		C21AA4EB17F8962900BF98C0 /* texture-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C21AA4EA17F8962900BF98C0 /* texture-1.jpg */; };
 		C21AA4F617F8C85700BF98C0 /* 2.1.1.1.html in Resources */ = {isa = PBXBuildFile; fileRef = C21AA4F417F8C85700BF98C0 /* 2.1.1.1.html */; };
@@ -46,14 +46,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C2045A41180AB8D000EA0BF2 /* SubjectViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubjectViewCell.h; sourceTree = "<group>"; };
+		C2045A42180AB8D000EA0BF2 /* SubjectViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubjectViewCell.m; sourceTree = "<group>"; };
 		C21AA4DA17F87FAD00BF98C0 /* Subject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subject.h; sourceTree = "<group>"; };
 		C21AA4DB17F87FAD00BF98C0 /* Subject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Subject.m; sourceTree = "<group>"; };
 		C21AA4DD17F8807A00BF98C0 /* SubjectBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubjectBox.h; sourceTree = "<group>"; };
 		C21AA4DE17F8807A00BF98C0 /* SubjectBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubjectBox.m; sourceTree = "<group>"; };
 		C21AA4E017F882C500BF98C0 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
 		C21AA4E117F882C500BF98C0 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
-		C21AA4E317F88AB000BF98C0 /* SubjectViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SubjectViewCell.h; path = ../SubjectViewCell.h; sourceTree = "<group>"; };
-		C21AA4E417F88AB000BF98C0 /* SubjectViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SubjectViewCell.m; path = ../SubjectViewCell.m; sourceTree = "<group>"; };
 		C21AA4E717F8950000BF98C0 /* texture-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "texture-2.jpg"; sourceTree = "<group>"; };
 		C21AA4EA17F8962900BF98C0 /* texture-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "texture-1.jpg"; sourceTree = "<group>"; };
 		C21AA4F417F8C85700BF98C0 /* 2.1.1.1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 2.1.1.1.html; sourceTree = "<group>"; };
@@ -147,12 +147,12 @@
 		C22E2D8517F86393009EF733 /* MI-6 */ = {
 			isa = PBXGroup;
 			children = (
+				C2045A41180AB8D000EA0BF2 /* SubjectViewCell.h */,
+				C2045A42180AB8D000EA0BF2 /* SubjectViewCell.m */,
 				C2B571BF18004D1E00AA62FF /* MenuView.h */,
 				C2B571C018004D1E00AA62FF /* MenuView.m */,
 				C2B571C218008FF300AA62FF /* MenuViewController.h */,
 				C2B571C318008FF300AA62FF /* MenuViewController.m */,
-				C21AA4E317F88AB000BF98C0 /* SubjectViewCell.h */,
-				C21AA4E417F88AB000BF98C0 /* SubjectViewCell.m */,
 				C22E2D8E17F86393009EF733 /* AppDelegate.h */,
 				C22E2D8F17F86393009EF733 /* AppDelegate.m */,
 				C22E2D9117F86393009EF733 /* Main_iPhone.storyboard */,
@@ -309,10 +309,10 @@
 				C2B571C118004D1E00AA62FF /* MenuView.m in Sources */,
 				C22E2D9017F86393009EF733 /* AppDelegate.m in Sources */,
 				C22E2DB917F863DC009EF733 /* TopicViewController.m in Sources */,
+				C2045A43180AB8D000EA0BF2 /* SubjectViewCell.m in Sources */,
 				C21AA4DC17F87FAD00BF98C0 /* Subject.m in Sources */,
 				C21AA4DF17F8807A00BF98C0 /* SubjectBox.m in Sources */,
 				C22E2D8C17F86393009EF733 /* main.m in Sources */,
-				C21AA4E517F88AB000BF98C0 /* SubjectViewCell.m in Sources */,
 				C2B571C418008FF300AA62FF /* MenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
