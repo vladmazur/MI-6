@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[CollectionViewController viewDidLoad]:CollectionViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[CollectionViewController prepareForSegue:sender:]:CollectionViewController.m">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
